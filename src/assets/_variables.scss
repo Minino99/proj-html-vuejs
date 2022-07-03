@@ -5,8 +5,32 @@ $h2-font: "Poppins", sans-serif;
 $h2-size: 3rem;
 $h2-weight: 700;
 $p-font: "Montserrat", sans-serif;
-$p-size: 1rem;
+$p-size: 1.2rem;
 $p-weight: 400;
 $bs-primary: #058283;
 $bs-secondary: #21333e;
 $greytext: #C0C3D0;
+$body-font-family: "Poppins", sans-serif;
+
+
+p{
+  font-family: $p-font;
+  font-size: $p-size;
+  font-weight: $p-weight;
+  color: grey;
+}
+
+.btn{
+  padding: 0.60rem 1.5rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $bs-primary;
+  border-color: $bs-primary;
+}
+
+.btn-outline-primary {
+  border-color: $bs-primary;
+  color: $bs-primary;
+}
