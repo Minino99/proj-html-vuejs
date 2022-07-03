@@ -23,9 +23,6 @@ export default {
   font-family: Montserrat;
 }
 
-h1{
-  font-family: Poppins;
-}
 
 
 </style>

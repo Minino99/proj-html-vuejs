@@ -34,3 +34,15 @@ p{
   border-color: $bs-primary;
   color: $bs-primary;
 }
+
+.marked{
+  color: $bs-primary;
+  background-color: rgba($color: #058283, $alpha: .15);
+  border-radius: 5px;
+  font-family: Poppins;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Poppins;
+}
