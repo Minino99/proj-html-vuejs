@@ -77,3 +77,13 @@ button{
 i{
   color: $bs-primary;
 }
+
+a{
+  text-decoration: none;
+  color: grey;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #00A6A6;
+}
