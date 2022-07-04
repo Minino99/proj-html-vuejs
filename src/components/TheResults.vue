@@ -72,8 +72,8 @@ export default {
           logo: "-5",
         },
                 {
-          name: "jQuery",
-          logo: "-4",
+          name: "Woo Commerce2",
+          logo: "-1",
         },
       ],
     };
@@ -85,7 +85,7 @@ export default {
 @import "../assets/variables.scss";
 
 .numbers-container {
-  height: 600px;
+  height: 550px;
   background-image: url("../../public/images/bg-7.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -115,6 +115,6 @@ h4 {
 
 .partners {
   background-color: #111117;
-  height: 300px;
+  height: 250px;
 }
 </style>
