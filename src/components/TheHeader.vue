@@ -43,7 +43,7 @@ export default {
 @import "../assets/variables.scss";
 
 .header {
-  height: 5.5vh;
+  height: 51px;
   color: $greytext;
 }
 .container-fluid {

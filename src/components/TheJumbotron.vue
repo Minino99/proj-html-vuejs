@@ -30,7 +30,7 @@
           <h1 class="bigtitle text-center pb-3">
             Ready<span class="marked px-3 ms-2">Team</span>
           </h1>
-          <p class="pb-5 text-center">
+          <p class="pb-5 text-center" style="max-width: 500px;">
             No matter what your company needs, we will be ready to assist you in
             the best possible way.
           </p>
@@ -105,9 +105,6 @@ export default {
   color: $bs-secondary;
 }
 
-.jumbotitle {
-  width: 27%;
-}
 
 #particles{
  background-image: url("../../public/images/particles.png");

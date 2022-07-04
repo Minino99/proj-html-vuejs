@@ -18,6 +18,8 @@ p{
   font-size: $p-size;
   font-weight: $p-weight;
   color: grey;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .btn{
@@ -43,6 +45,22 @@ p{
 }
 
 
-h1,h2,h3,h4,h5,h6{
+h1,h2{
   font-family: Poppins;
+  font-weight: 900;
+}
+
+h6{
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #00A6A6;
+}
+
+button{
+  white-space: nowrap;
+}
+
+i{
+  color: $bs-primary;
 }

@@ -2,16 +2,18 @@
   <div id="app">
     <TheHeader/>
     <TheJumbotron/>
+    <TheServices/>
   </div>
 </template>
 
 <script>
 import TheHeader from './components/TheHeader.vue';
 import TheJumbotron from './components/TheJumbotron.vue';
+import TheServices from './components/TheServices.vue';
 
 export default {
   name: "App",
-  components: {TheHeader, TheJumbotron},
+  components: { TheHeader, TheJumbotron, TheServices },
 };
 </script>
 
