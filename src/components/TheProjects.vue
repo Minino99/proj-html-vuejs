@@ -4,7 +4,7 @@
     <h2 class="text-center pb-5">
       Actions &<span class="marked px-3 mx-1">Projects</span>
     </h2>
-    <div class="d-flex justify-content-center gap-4 pb-5">
+    <div class="d-flex justify-content-center gap-5 pb-5">
       <span v-for="category in categories" :key="category"
         ><a href="#categories">{{ category.toLocaleUpperCase() }}</a></span
       >
@@ -122,13 +122,16 @@ h5 {
   
     .card:hover .card-img{
    transform: scale(1.2);
-  filter: brightness(0.3) blur(5px);
+  filter: brightness(0.5) blur(5px);
   }
 
   .card:hover .arrow{
    opacity: 1;
   }
 
+.row{
+ transform: scale(0.8);
+}
 
 
 .col {
@@ -147,7 +150,7 @@ h5 {
 }
 
 .card-img {
-  filter: brightness(0.3);
+  filter: brightness(0.5);
   transition: transform 0.3s, filter 0.3s;
 }
 
