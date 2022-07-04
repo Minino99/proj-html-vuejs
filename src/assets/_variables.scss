@@ -32,9 +32,22 @@ p{
   border-color: $bs-primary;
 }
 
+.btn-primary:hover {
+  color: #fff;
+  background-color: #00A1A0;
+  border-color: #00A1A0;
+}
+
+
 .btn-outline-primary {
   border-color: $bs-primary;
   color: $bs-primary;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #00A1A0;
+  border-color: #00A1A0;
 }
 
 .marked{

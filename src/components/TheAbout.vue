@@ -1,5 +1,6 @@
 <template>
   <div class="fluidcontainer">
+    <div class="d-flex justify-content-center"><div class="dots"></div></div>
     <div class="container h-100">
       <div class="row justify-content-center h-100">
         <div class="col h-100">
@@ -39,6 +40,7 @@
         <div class="col rightbg"></div>
       </div>
     </div>
+    <div class="d-flex justify-content-center"><div class="dots"></div></div>
   </div>
 </template>
 
@@ -98,8 +100,8 @@ h5 {
   color: white;
 }
 
-.btn-outline-primary{
- color: white;
+.btn-outline-primary {
+  color: white;
 }
 
 .fluidcontainer {
@@ -120,5 +122,18 @@ h5 {
   height: 850px;
   position: absolute;
   right: 0;
+}
+
+.dots {
+  position: absolute;
+  width: 150px;
+  height: 65px;
+  background-image: url("../../public/images/bullets.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 40%;
+  z-index: 4;
+  transform: translateY(-50%);
 }
 </style>
