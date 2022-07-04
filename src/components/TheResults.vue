@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-5">
     <div
       class="numbers-container align-items-center d-flex flex-column justify-content-center"
     >
@@ -15,7 +15,13 @@
       </div>
     </div>
     <div class="partners">
-      <div class="container"></div>
+      <div class="h-100 container">
+        <div class="row h-100 justify-content-around align-items-center">
+          <div class="col" v-for="partner in partners" :key="partner.name">
+            <img :src="`images/logo${partner.logo}.png`" class="px-3" :alt="`Logo of ${partner.name}`">
+            </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -64,6 +70,10 @@ export default {
         {
           name: "less",
           logo: "-5",
+        },
+                {
+          name: "jQuery",
+          logo: "-4",
         },
       ],
     };
