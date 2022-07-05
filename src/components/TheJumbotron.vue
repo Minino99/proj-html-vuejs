@@ -18,7 +18,9 @@
               v-for="navelement in navElements"
               :key="navelement.name"
               class="px-4 navelement"
-              >{{ navelement.name.toUpperCase() }}</span
+              ><a :href="`#${navelement.name}`">{{
+                navelement.name.toUpperCase()
+              }}</a></span
             >
             <button type="button" class="btn btn-primary navelement">
               GET IN TOUCH

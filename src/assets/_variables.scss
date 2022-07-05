@@ -38,6 +38,10 @@ p{
   border-color: #00A1A0;
 }
 
+.text-primary {
+  color: $bs-primary !important;
+}
+
 
 .btn-outline-primary {
   border-color: $bs-primary;
@@ -58,7 +62,7 @@ p{
 }
 
 
-h1,h2{
+h1,h2,h4{
   font-family: Poppins;
   font-weight: 900;
 }
