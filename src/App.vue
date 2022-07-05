@@ -7,6 +7,7 @@
     <TheProjects id="Projects"/>
     <TheResults id="Results"/>
     <TheContacts/>
+    <TheFooter/>
   </div>
 </template>
 
@@ -18,10 +19,11 @@ import TheAbout from './components/TheAbout.vue';
 import TheProjects from './components/TheProjects.vue';
 import TheResults from './components/TheResults.vue';
 import TheContacts from './components/TheContacts.vue';
+import TheFooter from './components/TheFooter.vue';
 
 export default {
   name: "App",
-  components: { TheHeader, TheJumbotron, TheServices, TheAbout, TheProjects, TheResults, TheContacts },
+  components: { TheHeader, TheJumbotron, TheServices, TheAbout, TheProjects, TheResults, TheContacts, TheFooter },
 };
 </script>
 
