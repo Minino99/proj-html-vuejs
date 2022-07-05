@@ -2,8 +2,8 @@
   <div>
     <div class="container-fluid">
       <div class="container h-100">
-        <div class="row h-100 align-items-center g-1">
-          <div class="col">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-3">
             <div class="pb-4">
               <img
                 src="images/logo.png"
@@ -33,7 +33,7 @@
           </div>
 
           <div
-            class="col pe-4"
+            class="col-lg-3 pe-4"
             v-for="element in footerElements"
             :key="element.title"
           >
@@ -42,7 +42,7 @@
                 <div
                   v-for="link in element.links"
                   :key="link"
-                  class="text-white pb-2"
+                  class="text-white pb-2 link"
                 >
                   <i class="fa-solid fa-chevron-right text-white fs-5 pe-2"></i>
                   {{ link }}
@@ -133,5 +133,9 @@ export default {
 .container-fluid-endpage {
   background-color: #0d0d11;
   height: 90px;
+}
+
+.link{
+ white-space: nowrap;
 }
 </style>
