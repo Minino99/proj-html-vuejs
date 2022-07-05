@@ -1,7 +1,7 @@
 <template>
   <div id="particles">
     <div class="container-fluid d-flex flex-column">
-      <div class="bg-white sticky-top">
+      <div :class="{ stickit: scrolled }">
         <div
           class="container d-flex justify-content-between align-items-center p-3 nav-container"
         >
@@ -79,7 +79,17 @@ export default {
           link: "",
         },
       ],
+      scrolled: false,
     };
+  },
+  mounted: function () {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 51) {
+        this.scrolled = true;
+      } else {
+        this.scrolled = false;
+      }
+    });
   },
 };
 </script>
@@ -87,6 +97,19 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/variables.scss";
 
+.stickit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba($color: white, $alpha: 1);
+  transition: background-color 0.3s linear;
+  -webkit-box-shadow: 1px 3px 35px -10px #000000;
+  -moz-box-shadow: 1px 3px 35px -10px #000000;
+  -o-box-shadow: 1px 3px 35px -10px #000000;
+  box-shadow: 1px 3px 35px -10px #000000;
+}
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
