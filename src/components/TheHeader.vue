@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="header d-none d-md-block">
     <div class="container-fluid h-100">
       <div
         class="container h-100 d-flex justify-content-between align-items-center"

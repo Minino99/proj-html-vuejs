@@ -4,7 +4,7 @@
     <h2 class="text-center pb-5">
       Actions &<span class="marked px-3 mx-1">Projects</span>
     </h2>
-    <div class="d-flex justify-content-center gap-5 pb-5">
+    <div class="d-flex justify-content-center gap-5 pb-5 flex-wrap">
       <span v-for="category in categories" :key="category"
         ><a href="#categories">{{ category.toLocaleUpperCase() }}</a></span
       >

@@ -7,7 +7,7 @@
       <h2 class="pb-5">
         <span class="marked px-3 me-1">Results</span> in Numbers
       </h2>
-      <div class="container d-flex justify-content-around">
+      <div class="container d-flex gap-4 flex-wrap justify-content-around">
         <div v-for="data in datas" :key="data.description">
           <h4 class="text-center">{{ data.number }}</h4>
           <h5>{{ data.description }}</h5>
