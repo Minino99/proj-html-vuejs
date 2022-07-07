@@ -102,7 +102,7 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 99;
   background-color: rgba($color: white, $alpha: 1);
   transition: background-color 0.3s linear;
   -webkit-box-shadow: 1px 3px 35px -10px #000000;
